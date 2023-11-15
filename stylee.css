@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.a1 {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    transform: scale(1);
+}
+.a1:hover {
+    transform: scale(1.5);
+}
+.btn1 {
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 25px;
+    background-color: black;
+}
+.minbox2 {
+    display: flex;
+    align-items: center;
+}
+.p1 {
+    margin: 20px 0;
+}
+.p2 {
+    margin-left: 20px;
+}
+.box {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.minn {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.minbox1 {
+    width: 50%;
+}
+.img {
+    width: 50%;
+}
+.minbox3 {
+    width: 30%;
+}
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin: 50px 0 0 0;
+    background: #F3F3F3;
+}
+.box2 {
+    padding: 40px;
+    background-color: black;
+}
+.minbox4 {
+    width: 50%;
+    color: white;
+    line-height: 1.6;
+}
+.minbox5 {
+    width: 80%;
+    flex-wrap: wrap;
+}
